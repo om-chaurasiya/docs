@@ -1,0 +1,10 @@
+import Background from "./components/Background"
+import Foreground from "./components/Foreground"
+export default function App() {
+  return (
+   <div className=' relative w-full h-screen bg-zinc-800 font-semibold'>
+   <Background/>
+   <Foreground/>
+   </div>
+  )
+}
